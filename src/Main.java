@@ -49,7 +49,7 @@ public class Main {
 
         String mapa[][] = new String [8][8];
         String mapaNavios[][] = new String[8][8];
-        int navios = 5, tentativas = 5;
+        int navios = 10, tentativas = 30;
 
         preencherMatrizes(mapa, mapaNavios);
 
