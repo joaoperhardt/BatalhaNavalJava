@@ -74,9 +74,11 @@ public class Main {
                 }
                 else if (mapaNavios[coordenadaY][coordenadaX] == "X") {
                     mapa[coordenadaY][coordenadaX] = mapaNavios[coordenadaY][coordenadaX];
+                    System.out.println("Acertou!");
                     navios--;
                 }
                 else if (mapaNavios[coordenadaY][coordenadaX] == "O") {
+                    System.out.println("Errou");
                     mapa[coordenadaY][coordenadaX] = mapaNavios[coordenadaY][coordenadaX];
                 }
 
