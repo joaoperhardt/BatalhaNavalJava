@@ -78,8 +78,8 @@ public class Main {
                     navios--;
                 }
                 else if (mapaNavios[coordenadaY][coordenadaX] == "O") {
-                    System.out.println("Errou");
                     mapa[coordenadaY][coordenadaX] = mapaNavios[coordenadaY][coordenadaX];
+                    System.out.println("Errou");
                 }
 
                 if (navios == 0) {
